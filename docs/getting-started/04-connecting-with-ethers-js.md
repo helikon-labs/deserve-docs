@@ -41,7 +41,7 @@ console.log(`Current block number: ${blockNumber}`);
 
 ## Connecting with viem
 
-[viem](https://viem.sh) is a modern TypeScript alternative to ethers.js:
+[viem](https://viem.sh) is a **modern TypeScript alternative** to ethers.js:
 
 ```bash
 npm install viem

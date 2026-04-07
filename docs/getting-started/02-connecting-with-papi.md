@@ -6,7 +6,7 @@ slug: /getting-started/connecting-with-papi
 
 # Connecting with PAPI
 
-[PAPI](https://papi.how) (Polkadot API) is the next-generation TypeScript library for interacting with Polkadot and Substrate-based chains, designed as a modern alternative to Polkadot.js.
+[PAPI](https://papi.how) (Polkadot API) is the **next-generation** TypeScript library for interacting with Polkadot and Substrate-based chains, designed as a **modern alternative to Polkadot.js**.
 
 ## Installation
 
