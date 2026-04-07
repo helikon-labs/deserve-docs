@@ -8,15 +8,15 @@ slug: /polkadot-and-parachains/overview
 
 ## Overview
 
-DeServe provides archive RPC, and Ethereum-compatible RPC services where applies, for Polkadot and its system parachains. The current deployment covers Polkadot Asset Hub, with additional system parachains being rolled out progressively.
+DeServe provides archive RPC, and Ethereum-compatible RPC services where applicable, for Polkadot and its system parachains. The current deployment covers Polkadot Asset Hub, with additional system parachains being rolled out progressively.
 
 | Chain       | Archive RPC | ETH RPC | Status      |
 | ----------- | :---------: | :-----: | ----------- |
 | Asset Hub   |     ✅      |   ✅    | Live        |
-| Coretime    |     ✅      |   🔄    | In progress |
-| Bridge Hub  |     🔜      |   🔜    | Planned     |
-| Collectives |     🔜      |   🔜    | Planned     |
-| People      |     🔜      |   🔜    | Planned     |
+| Coretime    |     🔜      |   N/A   | In progress |
+| Bridge Hub  |     🔜      |   N/A   | Planned     |
+| Collectives |     🔜      |   N/A   | Planned     |
+| People      |     🔜      |   N/A   | Planned     |
 
 All deployments are across the full **14-location** network with geo-steered load balancing, with a 15th location in Tokyo currently being deployed.
 

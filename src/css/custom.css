@@ -502,6 +502,14 @@ a {
     text-decoration: none;
 }
 
+.table-of-contents a {
+    text-decoration: none;
+}
+
+.pagination-nav a {
+    text-decoration: none;
+}
+
 .footer__item a {
     text-decoration: underline;
 }

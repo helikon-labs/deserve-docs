@@ -6,7 +6,7 @@ slug: /
 
 # What is DeServe
 
-DeServe is a **progressively decentralized** infrastructure services network, [launched](https://forum.polkadot.network/t/launched-a-global-rpc-network-starting-with-polkadot-asset-hub-first-step-of-a-depin-14-locations-lowest-latency-cost-benchmarks-free-endpoints/17422) on Polkadot. Its initial deployment provides a **global archive RPC network for Polkadot Asset Hub,** with **Ethereum-compatible RPC support,** across **14 locations and 6 continents,** with a 15th location in Tokyo currently being deployed.
+DeServe is a **progressively decentralized** infrastructure services network, [launched](https://forum.polkadot.network/t/launched-a-global-rpc-network-starting-with-polkadot-asset-hub-first-step-of-a-depin-14-locations-lowest-latency-cost-benchmarks-free-endpoints/17422) on Polkadot March 31, 2026. Its initial deployment provides a **global archive RPC network for Polkadot Asset Hub** with **Ethereum-compatible RPC support**, across **14 locations and 6 continents**, with a 15th location in Tokyo currently being deployed. Coverage is expanding to additional Polkadot system parachains, with Coretime currently rolling out.
 
 The launch of DeServe is motivated by three major factors:
 
@@ -16,30 +16,30 @@ The launch of DeServe is motivated by three major factors:
 
 ## Early traction
 
-Since launching on March 31, 2026, DeServe has grown rapidly: from 1.7M requests on day 1 to over 4.5M/day by day 3, reaching **45M+ requests in a single day** within the first week.
+Since its launch, DeServe has grown rapidly from 1.7M requests/day on launch to over 4.5M/day by day 3, reaching **50M+ requests/24h** within the first week.
 
 ## How it works
 
 Requests are routed to the nearest available node via geo-steered load balancing, based on the client's IP address. Endpoint health is monitored every 15 seconds, and unreachable nodes are immediately removed from the pool, ensuring high availability. Live node status and performance data are available on the [deserve.network](https://deserve.network) dashboard.
 
-## Current deployment
-
-The initial deployment covers Polkadot Asset Hub archive RPC and Ethereum-compatible RPC across 14 live locations, with a 15th in Tokyo currently being deployed. Coverage is expanding to additional Polkadot system parachains, with Coretime currently rolling out.
+<a href="https://deserve.network" target="_blank"><img src="/img/deserve_network_web_scr.png" alt="deserve.network"></img></a>
 
 ## Performance & cost
 
-DeServe has the **lowest latency among all major Polkadot RPC providers**, verified via [Compare Nodes](https://comparenodes.com) benchmarks run against IBP, Dwellir, OnFinality, and LuckyFriday. DeServe is faster in 6/6 continents and over 24/26 regions compared to OnFinality, LuckyFriday, and Dwellir, and in 5/6 continents and over 18/26 regions compared to IBP.
+DeServe has the **lowest latency among all major Polkadot RPC providers**, verified via [Compare Nodes](https://comparenodes.com) benchmarks run against IBP ([run #1](https://www.comparenodes.com/global-node-comparison/3a6c4cf0-f065-4bcb-9791-55f64dc7876f/), [run #2](https://www.comparenodes.com/global-node-comparison/bf91bbee-1fa0-4ff8-8130-2cbe9941dfbc/), [run #3](https://www.comparenodes.com/global-node-comparison/16cad275-c3ed-4c61-b6c7-e177b9484de3/)), Dwellir ([run #1](https://www.comparenodes.com/global-node-comparison/a918f03e-4e10-4cba-9d89-b7c469075927/)), OnFinality ([run #1](https://www.comparenodes.com/global-node-comparison/b297f27c-4c7d-498b-bf81-d3882bb48b66/)), and LuckyFriday ([run #1](https://www.comparenodes.com/global-node-comparison/ccd9b336-4ecf-410b-b4b1-08cb4a7fd68f/)).
+
+DeServe is faster in 6/6 continents and over 24/26 regions compared to OnFinality, LuckyFriday, and Dwellir, and in 5/6 continents and over 18/26 regions compared to IBP.
 
 DeServe is also approximately **80% cheaper than IBP** across comparable infrastructure.
 
 ## Decentralization roadmap
 
-DeServe is operated by [Helikon](https://helikon.io), a Polkadot-native infrastructure and software development team based in İstanbul, with infrastructure services provided by 6 operators including Helikon.
+DeServe is founded and launched by [Helikon](https://helikon.io), an İstanbul-based Polkadot-native infrastructure and software development team, with infrastructure provided by 7 operators, including Helikon itself.
 
 The network decentralizes progressively through defined phases:
 
-- **Alpha** — Helikon operates as the initial operator, managing the network and coordinating providers.
-- **Beta** — A network committee of 3 native Polkadot infrastructure operators takes over coordination.
-- **On-chain** — Governance, provider coordination, and pay-as-you-go payments with on-chain provision and consumption proofs move fully on-chain.
+- **Alpha:** Helikon operates as the initial operator, managing the network and coordinating providers.
+- **Beta:** A network committee of 3 Polkadot-native infrastructure operators takes over coordination.
+- **On-chain:** Governance, provider coordination, and pay-as-you-go payments with on-chain provision and consumption proofs move fully on-chain.
 
-A testnet is already deployed on Paseo (para ID 5150). Planned milestones include a transition to open-source DNS (replacing Cloudflare for geo-steered load balancing) and progressive replacement of cloud providers with native Polkadot infrastructure providers.
+A testnet is already deployed on Paseo ([para ID 5150](https://telemetry.polkadot.io/#list/0x1260a2a27387e782a0f11f9fb4e42eb80d7ccff994a30ff8fb2c409315f38f49)). Planned milestones include a transition to open-source DNS (replacing Cloudflare for geo-steered load balancing) and progressive replacement of cloud providers with native Polkadot infrastructure providers.

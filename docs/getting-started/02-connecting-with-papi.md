@@ -17,32 +17,41 @@ npm install polkadot-api
 ## Adding the Asset Hub chain descriptor
 
 ```bash
-npx papi add asset_hub_polkadot -n asset_hub_polkadot
+npx papi add polkadot_asset_hub -n polkadot_asset_hub
 ```
 
 ## Connecting to the geo-steered endpoint
 
 ```typescript
+import { polkadot_asset_hub } from '@polkadot-api/descriptors';
 import { createClient } from 'polkadot-api';
-import { getWsProvider } from 'polkadot-api/ws-provider/web';
-import { asset_hub_polkadot } from '@polkadot-api/descriptors';
+import { getWsProvider } from 'polkadot-api/ws-provider';
+import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
 
-const client = createClient(getWsProvider('wss://asset-hub.polkadot.rpc.deserve.network'));
-
-const api = client.getTypedApi(asset_hub_polkadot);
+const client = createClient(
+    withPolkadotSdkCompat(getWsProvider('wss://asset-hub.polkadot.rpc.deserve.network')),
+);
+const api = client.getTypedApi(polkadot_asset_hub);
+const blockNumber = await api.query.System.Number.getValue();
+console.log(`Current block number is ${blockNumber}.`);
+client.destroy();
 ```
 
 ## Connecting to a regional endpoint
 
 ```typescript
+import { polkadot_asset_hub } from '@polkadot-api/descriptors';
 import { createClient } from 'polkadot-api';
-import { getWsProvider } from 'polkadot-api/ws-provider/web';
-import { asset_hub_polkadot } from '@polkadot-api/descriptors';
+import { getWsProvider } from 'polkadot-api/ws-provider';
+import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
 
-// Replace with your preferred regional endpoint
-const client = createClient(getWsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network'));
-
-const api = client.getTypedApi(asset_hub_polkadot);
+const client = createClient(
+    withPolkadotSdkCompat(getWsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network')),
+);
+const api = client.getTypedApi(polkadot_asset_hub);
+const blockNumber = await api.query.System.Number.getValue();
+console.log(`Current block number is ${blockNumber}.`);
+client.destroy();
 ```
 
 ## Available endpoints

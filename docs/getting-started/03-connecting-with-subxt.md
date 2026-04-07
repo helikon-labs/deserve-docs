@@ -14,7 +14,7 @@ Add subxt to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-subxt = "0.38"
+subxt = "0.50"
 tokio = { version = "1", features = ["full"] }
 ```
 
