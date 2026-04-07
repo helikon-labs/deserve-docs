@@ -1,0 +1,38 @@
+.wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.url {
+    font-size: 0.85em;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.15rem 0.2rem;
+    border-radius: 0.25rem;
+    color: var(--ifm-color-emphasis-600);
+    opacity: 0.5;
+    transition: opacity 0.15s, color 0.15s;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.copied {
+    color: rgb(21 128 61);
+    opacity: 1;
+}
+
+[data-theme='dark'] .copied {
+    color: rgb(74 222 128);
+}
