@@ -40,6 +40,10 @@ const sidebars: SidebarsConfig = {
             type: 'doc',
             id: 'polkadot-and-parachains/polkadot-and-parachains-overview',
         },
+        {
+            type: 'doc',
+            id: 'polkadot-and-parachains/polkadot-asset-hub',
+        },
     ],
     // crystalAPISidebar,
 };
