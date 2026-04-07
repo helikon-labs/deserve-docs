@@ -40,18 +40,16 @@ import { getWsProvider } from 'polkadot-api/ws-provider/web';
 import { asset_hub_polkadot } from '@polkadot-api/descriptors';
 
 // Replace with your preferred regional endpoint
-const client = createClient(
-    getWsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network'),
-);
+const client = createClient(getWsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network'));
 
 const api = client.getTypedApi(asset_hub_polkadot);
 ```
 
 ## Available endpoints
 
-| Location         | Endpoint                                                       |
-| ---------------- | -------------------------------------------------------------- |
-| Geo-steered      | `wss://asset-hub.polkadot.rpc.deserve.network`                 |
+| Location         | Endpoint                                                    |
+| ---------------- | ----------------------------------------------------------- |
+| Geo-steered      | `wss://asset-hub.polkadot.rpc.deserve.network`              |
 | Atlanta, GA, US  | `wss://atlanta.asset-hub.polkadot.rpc.deserve.network`      |
 | Gravelines, FR   | `wss://gravelines.asset-hub.polkadot.rpc.deserve.network`   |
 | İstanbul, TR     | `wss://istanbul.asset-hub.polkadot.rpc.deserve.network`     |

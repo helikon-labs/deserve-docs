@@ -60,9 +60,9 @@ console.log(`Current block number: ${blockNumber}`);
 
 ## Available endpoints
 
-| Location         | Endpoint                                                             |
-| ---------------- | -------------------------------------------------------------------- |
-| Geo-steered      | `https://asset-hub.polkadot.eth-rpc.deserve.network`                 |
+| Location         | Endpoint                                                          |
+| ---------------- | ----------------------------------------------------------------- |
+| Geo-steered      | `https://asset-hub.polkadot.eth-rpc.deserve.network`              |
 | Atlanta, GA, US  | `https://atlanta.asset-hub.polkadot.eth-rpc.deserve.network`      |
 | Gravelines, FR   | `https://gravelines.asset-hub.polkadot.eth-rpc.deserve.network`   |
 | İstanbul, TR     | `https://istanbul.asset-hub.polkadot.eth-rpc.deserve.network`     |

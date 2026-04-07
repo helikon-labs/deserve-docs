@@ -59,9 +59,9 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ## Available endpoints
 
-| Location         | Endpoint                                                       |
-| ---------------- | -------------------------------------------------------------- |
-| Geo-steered      | `wss://asset-hub.polkadot.rpc.deserve.network`                 |
+| Location         | Endpoint                                                    |
+| ---------------- | ----------------------------------------------------------- |
+| Geo-steered      | `wss://asset-hub.polkadot.rpc.deserve.network`              |
 | Atlanta, GA, US  | `wss://atlanta.asset-hub.polkadot.rpc.deserve.network`      |
 | Gravelines, FR   | `wss://gravelines.asset-hub.polkadot.rpc.deserve.network`   |
 | İstanbul, TR     | `wss://istanbul.asset-hub.polkadot.rpc.deserve.network`     |

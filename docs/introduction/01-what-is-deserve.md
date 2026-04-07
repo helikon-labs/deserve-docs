@@ -6,16 +6,17 @@ slug: /
 
 # What is DeServe
 
-DeServe is a progressively decentralized infrastructure services network, launching on Polkadot. Its initial deployment provides a global archive RPC network for Polkadot Asset Hub, with Ethereum-compatible RPC support, across 15 locations and 6 continents.
+DeServe is a **progressively decentralized** infrastructure services network, [launched](https://forum.polkadot.network/t/launched-a-global-rpc-network-starting-with-polkadot-asset-hub-first-step-of-a-depin-14-locations-lowest-latency-cost-benchmarks-free-endpoints/17422) on Polkadot. Its initial deployment provides a **global archive RPC network for Polkadot Asset Hub,** with **Ethereum-compatible RPC support,** across **15 locations and 6 continents.**
 
-DeServe is designed to address two core gaps in the current Polkadot infrastructure landscape:
+The launch of DeServe is motivated by three major factors:
 
-- **Cost efficiency** — delivering the same services at a fraction of the cost of existing providers, through competitive pricing and a pay-as-you-go model as the network matures
-- **Service breadth** — expanding beyond archive RPC toward general-purpose infrastructure including web hosting, VMs, and compute services
+1. The unmet demand for **general-purpose infrastructure** in the ecosystem such as web hosting, VMs, and CPU/GPU compute services.
+2. The **lack of pay-as-you-go, cost-competitive alternatives** for these services.
+3. The absence of a **Polkadot-based DePIN** capable of both meeting these needs, exporting services to other blockchain ecosystems and to institutional and individual end-users.
 
 ## How it works
 
-Requests are routed to the nearest available node via geo-steered load balancing, based on the client's IP address. Endpoint health is monitored every 15 seconds — unreachable nodes are immediately removed from the pool, ensuring high availability without requiring 2N hardware redundancy.
+Requests are routed to the nearest available node via geo-steered load balancing, based on the client's IP address. Endpoint health is monitored every 15 seconds, and unreachable nodes are immediately removed from the pool, ensuring high availability.
 
 ## Current deployment
 
