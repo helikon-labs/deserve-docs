@@ -11,11 +11,11 @@ DeServe applies rate limits on public-facing endpoints as a security measure and
 ## Rate limits
 
 | Parameter                    | Limit |
-| ---------------------------- | ----- |
-| Requests per second          | 100   |
-| Subscriptions per connection | 256   |
-| Max request size             | 2MB   |
-| Max response size            | 7MB   |
+| :--------------------------- | ----: |
+| Requests per second          |   100 |
+| Subscriptions per connection |   256 |
+| Max request size             |   2MB |
+| Max response size            |   7MB |
 
 These limits are sufficient for general-purpose usage. For comparison, OnFinality's public WebSocket limit for Polkadot Asset Hub is [5 response units/second](https://documentation.onfinality.io/support/public-rate-limits).
 

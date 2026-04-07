@@ -4,9 +4,9 @@ sidebar_position: 3
 slug: /getting-started/connecting-with-subxt
 ---
 
-# Connecting with subxt
+# Connecting with SubXT
 
-[subxt](https://github.com/paritytech/subxt) is a Rust library for interacting with Polkadot and Substrate-based chains, maintained by Parity Technologies.
+[SubXT](https://github.com/paritytech/subxt) is a Rust library for interacting with Polkadot and Substrate-based chains, maintained by Parity Technologies.
 
 ## Installation
 

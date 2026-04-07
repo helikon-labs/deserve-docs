@@ -8,16 +8,6 @@ slug: /polkadot-and-parachains/polkadot-asset-hub
 
 Polkadot Asset Hub is a system parachain on Polkadot that provides native asset management, including DOT, and acts as the primary hub for cross-chain asset transfers via XCM.
 
-## Network details
-
-| Parameter | Value     |
-| --------- | --------- |
-| Network   | Polkadot  |
-| Chain     | Asset Hub |
-| Para ID   | 1000      |
-| Node type | Archive   |
-| Locations | 15        |
-
 ## Archive RPC endpoints
 
 ### Geo-steered
