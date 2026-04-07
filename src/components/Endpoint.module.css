@@ -19,7 +19,9 @@
     border-radius: 0.25rem;
     color: var(--ifm-color-emphasis-600);
     opacity: 0.5;
-    transition: opacity 0.15s, color 0.15s;
+    transition:
+        opacity 0.15s,
+        color 0.15s;
     line-height: 1;
     vertical-align: middle;
 }
