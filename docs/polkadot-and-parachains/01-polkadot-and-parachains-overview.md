@@ -31,3 +31,16 @@ All deployments are across the full **14-location** network with geo-steered loa
 | Geo-steered load balancing | ✅                |
 | Archive RPC                | ✅                |
 | Ethereum-compatible RPC    | ✅                |
+
+## Infrastructure
+
+| Parameter             | Value                      |
+| --------------------- | -------------------------- |
+| Providers             | 6                          |
+| Uplink bandwidth      | 1G – 10G                   |
+| Storage               | 950GB – 2TB NVMe           |
+| RAM                   | ECC                        |
+| Traffic               | Unmetered on most nodes    |
+| Monitoring            | Prometheus & Grafana, 24/7 |
+| Health check interval | 15 seconds                 |
+| Uptime SLA            | 99.9%+                     |
