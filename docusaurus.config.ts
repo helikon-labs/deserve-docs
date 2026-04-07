@@ -91,7 +91,7 @@ const config: Config = {
             title: null,
             logo: {
                 alt: 'DeServe Documentation',
-                src: 'img/submerge_logo_black.png',
+                src: 'img/deserve_logo_black.png',
             },
             items: [
                 /*
