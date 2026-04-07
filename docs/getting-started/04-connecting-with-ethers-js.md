@@ -60,20 +60,6 @@ console.log(`Current block number: ${blockNumber}`);
 
 ## Available endpoints
 
-| Location         | Endpoint                                                          |
-| ---------------- | ----------------------------------------------------------------- |
-| Geo-steered      | `https://asset-hub.polkadot.eth-rpc.deserve.network`              |
-| Atlanta, GA, US  | `https://atlanta.asset-hub.polkadot.eth-rpc.deserve.network`      |
-| Gravelines, FR   | `https://gravelines.asset-hub.polkadot.eth-rpc.deserve.network`   |
-| İstanbul, TR     | `https://istanbul.asset-hub.polkadot.eth-rpc.deserve.network`     |
-| Johannesburg, ZA | `https://johannesburg.asset-hub.polkadot.eth-rpc.deserve.network` |
-| Limburg, DE      | `https://limburg.asset-hub.polkadot.eth-rpc.deserve.network`      |
-| London, UK       | `https://london.asset-hub.polkadot.eth-rpc.deserve.network`       |
-| Miami, FL, US    | `https://miami.asset-hub.polkadot.eth-rpc.deserve.network`        |
-| Montreal, CA     | `https://montreal.asset-hub.polkadot.eth-rpc.deserve.network`     |
-| Mumbai, IN       | `https://mumbai.asset-hub.polkadot.eth-rpc.deserve.network`       |
-| Seattle, WA, US  | `https://seattle.asset-hub.polkadot.eth-rpc.deserve.network`      |
-| São Paulo, BR    | `https://sao-paulo.asset-hub.polkadot.eth-rpc.deserve.network`    |
-| Singapore, SG    | `https://singapore.asset-hub.polkadot.eth-rpc.deserve.network`    |
-| Sydney, AU       | `https://sydney.asset-hub.polkadot.eth-rpc.deserve.network`       |
-| Warsaw, PL       | `https://warsaw.asset-hub.polkadot.eth-rpc.deserve.network`       |
+| Network            |                                       Endpoints                                       |
+| :----------------- | :-----------------------------------------------------------------------------------: |
+| Polkadot Asset Hub | [Link](/polkadot-and-parachains/polkadot-asset-hub#ethereum-compatible-rpc-endpoints) |

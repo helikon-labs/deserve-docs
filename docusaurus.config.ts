@@ -121,6 +121,7 @@ const config: Config = {
                     label: 'Polkadot & Parachains',
                     position: 'right',
                     to: '/polkadot-and-parachains/overview',
+                    activeBasePath: 'polkadot-and-parachains',
                 },
                 /*
                 {

@@ -39,6 +39,6 @@ console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
 
 ## Available endpoints
 
-| Network            | Endpoints                                           |
-| ------------------ | --------------------------------------------------- |
-| Polkadot Asset Hub | [link](/polkadot-and-parachains/polkadot-asset-hub) |
+| Network            |                                 Endpoints                                 |
+| :----------------- | :-----------------------------------------------------------------------: |
+| Polkadot Asset Hub | [Link](/polkadot-and-parachains/polkadot-asset-hub#archive-rpc-endpoints) |

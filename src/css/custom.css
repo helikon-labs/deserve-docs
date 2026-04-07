@@ -487,6 +487,7 @@ article {
 
 /* link */
 a {
+    text-decoration: underline;
 }
 
 .theme-doc-sidebar-container a {
