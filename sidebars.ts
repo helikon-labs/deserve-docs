@@ -28,6 +28,10 @@ const sidebars: SidebarsConfig = {
         },
         {
             type: 'doc',
+            id: 'getting-started/connecting-with-subxt',
+        },
+        {
+            type: 'doc',
             id: 'getting-started/connecting-with-ethers-js',
         },
     ],
@@ -35,7 +39,7 @@ const sidebars: SidebarsConfig = {
         {
             type: 'doc',
             id: 'polkadot-and-parachains/polkadot-and-parachains-overview',
-        }
+        },
     ],
     // crystalAPISidebar,
 };
