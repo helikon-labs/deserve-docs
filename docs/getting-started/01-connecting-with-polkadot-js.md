@@ -6,7 +6,7 @@ slug: /getting-started/connecting-with-polkadot-js
 
 # Connecting with Polkadot.js
 
-[Polkadot.js](https://polkadot.js.org/) is the most widely used JavaScript/TypeScript library for interacting with Polkadot and Substrate-based chains.
+[Polkadot.js](https://polkadot.js.org/) is the most widely used JS/TS library for interacting with Polkadot and Substrate-based chains.
 
 ## Installation
 

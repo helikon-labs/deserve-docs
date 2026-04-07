@@ -114,7 +114,7 @@ const config: Config = {
                 {
                     type: 'doc',
                     label: 'Getting Started',
-                    docId: 'getting-started/connecting-with-polkadot-js',
+                    docId: 'getting-started/getting-started',
                     position: 'right',
                 },
                 {

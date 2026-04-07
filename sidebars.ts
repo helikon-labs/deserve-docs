@@ -20,6 +20,10 @@ const sidebars: SidebarsConfig = {
     gettingStartedSidebar: [
         {
             type: 'doc',
+            id: 'getting-started/getting-started',
+        },
+        {
+            type: 'doc',
             id: 'getting-started/connecting-with-polkadot-js',
         },
         {

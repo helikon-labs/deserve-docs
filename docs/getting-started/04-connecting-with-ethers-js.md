@@ -6,7 +6,7 @@ slug: /getting-started/connecting-with-ethers-js
 
 # Connecting with ethers.js
 
-[ethers.js](https://docs.ethers.org) is a widely used JavaScript/TypeScript library for interacting with Ethereum-compatible chains. DeServe provides Ethereum-compatible RPC endpoints for Polkadot Asset Hub via the [Revive](https://github.com/paritytech/revive) pallet.
+[ethers.js](https://docs.ethers.org) is a widely used JS/TS library for interacting with Ethereum-compatible chains. DeServe provides Ethereum-compatible RPC endpoints for Polkadot Asset Hub via the [Revive](https://github.com/paritytech/revive) pallet.
 
 ## Installation
 
