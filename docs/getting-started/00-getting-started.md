@@ -6,7 +6,7 @@ slug: /getting-started
 
 # Getting Started
 
-DeServe provides public RPC endpoints for Polkadot and its system parachains. Choose the library that fits your stack:
+Choose the library that fits your stack to access the DeServe endpoints:
 
 | Library                                                        | Language | Use case                                                   |
 | -------------------------------------------------------------- | :------: | ---------------------------------------------------------- |
