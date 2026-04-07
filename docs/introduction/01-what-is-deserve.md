@@ -11,7 +11,7 @@ DeServe is a **progressively decentralized** infrastructure services network, [l
 The launch of DeServe is motivated by three major factors:
 
 1. The unmet demand for **general-purpose infrastructure** in the ecosystem such as web hosting, VMs, and CPU/GPU compute services.
-2. The **lack of pay-as-you-go, cost-competitive alternatives** for these services.
+2. The lack of **pay-as-you-go, cost-competitive alternatives** for these services.
 3. The absence of a **Polkadot-based DePIN** capable of both meeting these needs, exporting services to other blockchain ecosystems and to institutional and individual end-users.
 
 ## Early traction
@@ -28,13 +28,13 @@ Requests are routed to the nearest available node via geo-steered load balancing
 
 DeServe has the **lowest latency among all major Polkadot RPC providers**, verified via [Compare Nodes](https://comparenodes.com) benchmarks run against IBP ([run #1](https://www.comparenodes.com/global-node-comparison/3a6c4cf0-f065-4bcb-9791-55f64dc7876f/), [run #2](https://www.comparenodes.com/global-node-comparison/bf91bbee-1fa0-4ff8-8130-2cbe9941dfbc/), [run #3](https://www.comparenodes.com/global-node-comparison/16cad275-c3ed-4c61-b6c7-e177b9484de3/)), Dwellir ([run #1](https://www.comparenodes.com/global-node-comparison/a918f03e-4e10-4cba-9d89-b7c469075927/)), OnFinality ([run #1](https://www.comparenodes.com/global-node-comparison/b297f27c-4c7d-498b-bf81-d3882bb48b66/)), and LuckyFriday ([run #1](https://www.comparenodes.com/global-node-comparison/ccd9b336-4ecf-410b-b4b1-08cb4a7fd68f/)).
 
-DeServe is faster in 6/6 continents and over 24/26 regions compared to OnFinality, LuckyFriday, and Dwellir, and in 5/6 continents and over 18/26 regions compared to IBP.
+DeServe is faster in **6/6 continents** and over **24/26 regions** compared to OnFinality, LuckyFriday, and Dwellir, and in **5/6 continents** and over **18/26 regions** compared to IBP.
 
 DeServe is also approximately **80% cheaper than IBP** across comparable infrastructure.
 
 ## Decentralization roadmap
 
-DeServe is founded and launched by [Helikon](https://helikon.io), an İstanbul-based Polkadot-native infrastructure and software development team, with infrastructure provided by 7 operators, including Helikon itself.
+DeServe is founded and launched by Helikon, an İstanbul-based Polkadot-native infrastructure and software development team, with infrastructure provided by 7 operators, including Helikon itself.
 
 The network decentralizes progressively through defined phases:
 

@@ -17,7 +17,7 @@ DeServe applies rate limits on public-facing endpoints as a security measure and
 | Max request size             |   2MB |
 | Max response size            |   7MB |
 
-These limits are sufficient for general-purpose usage. For comparison, OnFinality's public WebSocket limit for Polkadot Asset Hub is [5 response units/second](https://documentation.onfinality.io/support/public-rate-limits).
+These limits are sufficient for **general-purpose usage**. For comparison, OnFinality's public WebSocket limit for Polkadot Asset Hub is [5 response units/second](https://documentation.onfinality.io/support/public-rate-limits).
 
 ## Private endpoints
 
@@ -26,6 +26,6 @@ As DeServe evolves, providers will be able to offer private endpoints with highe
 ## Supported protocols
 
 | Protocol        | Support |
-| --------------- | ------- |
-| WebSocket (WSS) | ✅      |
-| HTTPS           | ✅      |
+| --------------- | :-----: |
+| WebSocket (WSS) |   ✅    |
+| HTTPS           |   ✅    |

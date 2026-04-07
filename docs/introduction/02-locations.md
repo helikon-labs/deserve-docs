@@ -6,7 +6,7 @@ slug: /introduction/locations
 
 # Locations
 
-DeServe currently operates across **14 locations** on **6 continents**, with a 15th location in Tokyo currently being deployed.
+DeServe currently operates across **14 locations** on **6 continents**, with a 15th location in Tokyo in progress.
 
 |   # | Location         | Continent     | Status         |
 | --: | ---------------- | ------------- | -------------- |
@@ -24,4 +24,4 @@ DeServe currently operates across **14 locations** on **6 continents**, with a 1
 |  12 | Singapore, SG    | Asia          | ✅ Live        |
 |  13 | Sydney, AU       | Oceania       | ✅ Live        |
 |  14 | Warsaw, PL       | Europe        | ✅ Live        |
-|  15 | Tokyo, JP        | Asia          | 🔄 In progress |
+|  15 | Tokyo, JP        | Asia          | 🔄 In Progress |
