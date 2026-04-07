@@ -32,7 +32,7 @@ import { ethers } from 'ethers';
 
 // Replace with your preferred regional endpoint
 const provider = new ethers.JsonRpcProvider(
-    'https://london-01.asset-hub.polkadot.eth-rpc.deserve.network',
+    'https://london.asset-hub.polkadot.eth-rpc.deserve.network',
 );
 
 const blockNumber = await provider.getBlockNumber();
@@ -63,17 +63,17 @@ console.log(`Current block number: ${blockNumber}`);
 | Location         | Endpoint                                                             |
 | ---------------- | -------------------------------------------------------------------- |
 | Geo-steered      | `https://asset-hub.polkadot.eth-rpc.deserve.network`                 |
-| Atlanta, GA, US  | `https://atlanta-01.asset-hub.polkadot.eth-rpc.deserve.network`      |
-| Gravelines, FR   | `https://gravelines-01.asset-hub.polkadot.eth-rpc.deserve.network`   |
-| İstanbul, TR     | `https://istanbul-01.asset-hub.polkadot.eth-rpc.deserve.network`     |
-| Johannesburg, ZA | `https://johannesburg-01.asset-hub.polkadot.eth-rpc.deserve.network` |
-| Limburg, DE      | `https://limburg-01.asset-hub.polkadot.eth-rpc.deserve.network`      |
-| London, UK       | `https://london-01.asset-hub.polkadot.eth-rpc.deserve.network`       |
-| Miami, FL, US    | `https://miami-01.asset-hub.polkadot.eth-rpc.deserve.network`        |
-| Montreal, CA     | `https://montreal-01.asset-hub.polkadot.eth-rpc.deserve.network`     |
-| Mumbai, IN       | `https://mumbai-01.asset-hub.polkadot.eth-rpc.deserve.network`       |
-| Seattle, WA, US  | `https://seattle-01.asset-hub.polkadot.eth-rpc.deserve.network`      |
-| São Paulo, BR    | `https://sao-paulo-01.asset-hub.polkadot.eth-rpc.deserve.network`    |
-| Singapore, SG    | `https://singapore-01.asset-hub.polkadot.eth-rpc.deserve.network`    |
-| Sydney, AU       | `https://sydney-01.asset-hub.polkadot.eth-rpc.deserve.network`       |
-| Warsaw, PL       | `https://warsaw-01.asset-hub.polkadot.eth-rpc.deserve.network`       |
+| Atlanta, GA, US  | `https://atlanta.asset-hub.polkadot.eth-rpc.deserve.network`      |
+| Gravelines, FR   | `https://gravelines.asset-hub.polkadot.eth-rpc.deserve.network`   |
+| İstanbul, TR     | `https://istanbul.asset-hub.polkadot.eth-rpc.deserve.network`     |
+| Johannesburg, ZA | `https://johannesburg.asset-hub.polkadot.eth-rpc.deserve.network` |
+| Limburg, DE      | `https://limburg.asset-hub.polkadot.eth-rpc.deserve.network`      |
+| London, UK       | `https://london.asset-hub.polkadot.eth-rpc.deserve.network`       |
+| Miami, FL, US    | `https://miami.asset-hub.polkadot.eth-rpc.deserve.network`        |
+| Montreal, CA     | `https://montreal.asset-hub.polkadot.eth-rpc.deserve.network`     |
+| Mumbai, IN       | `https://mumbai.asset-hub.polkadot.eth-rpc.deserve.network`       |
+| Seattle, WA, US  | `https://seattle.asset-hub.polkadot.eth-rpc.deserve.network`      |
+| São Paulo, BR    | `https://sao-paulo.asset-hub.polkadot.eth-rpc.deserve.network`    |
+| Singapore, SG    | `https://singapore.asset-hub.polkadot.eth-rpc.deserve.network`    |
+| Sydney, AU       | `https://sydney.asset-hub.polkadot.eth-rpc.deserve.network`       |
+| Warsaw, PL       | `https://warsaw.asset-hub.polkadot.eth-rpc.deserve.network`       |

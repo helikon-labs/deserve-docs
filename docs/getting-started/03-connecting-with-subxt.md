@@ -49,7 +49,7 @@ use subxt::{OnlineClient, PolkadotConfig};
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Replace with your preferred regional endpoint
     let api = OnlineClient::<PolkadotConfig>::from_url(
-        "wss://london-01.asset-hub.polkadot.rpc.deserve.network"
+        "wss://london.asset-hub.polkadot.rpc.deserve.network"
     ).await?;
 
     println!("Connected. Genesis hash: {:?}", api.genesis_hash());
@@ -62,17 +62,17 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 | Location         | Endpoint                                                       |
 | ---------------- | -------------------------------------------------------------- |
 | Geo-steered      | `wss://asset-hub.polkadot.rpc.deserve.network`                 |
-| Atlanta, GA, US  | `wss://atlanta-01.asset-hub.polkadot.rpc.deserve.network`      |
-| Gravelines, FR   | `wss://gravelines-01.asset-hub.polkadot.rpc.deserve.network`   |
-| İstanbul, TR     | `wss://istanbul-01.asset-hub.polkadot.rpc.deserve.network`     |
-| Johannesburg, ZA | `wss://johannesburg-01.asset-hub.polkadot.rpc.deserve.network` |
-| Limburg, DE      | `wss://limburg-01.asset-hub.polkadot.rpc.deserve.network`      |
-| London, UK       | `wss://london-01.asset-hub.polkadot.rpc.deserve.network`       |
-| Miami, FL, US    | `wss://miami-01.asset-hub.polkadot.rpc.deserve.network`        |
-| Montreal, CA     | `wss://montreal-01.asset-hub.polkadot.rpc.deserve.network`     |
-| Mumbai, IN       | `wss://mumbai-01.asset-hub.polkadot.rpc.deserve.network`       |
-| Seattle, WA, US  | `wss://seattle-01.asset-hub.polkadot.rpc.deserve.network`      |
-| São Paulo, BR    | `wss://sao-paulo-01.asset-hub.polkadot.rpc.deserve.network`    |
-| Singapore, SG    | `wss://singapore-01.asset-hub.polkadot.rpc.deserve.network`    |
-| Sydney, AU       | `wss://sydney-01.asset-hub.polkadot.rpc.deserve.network`       |
-| Warsaw, PL       | `wss://warsaw-01.asset-hub.polkadot.rpc.deserve.network`       |
+| Atlanta, GA, US  | `wss://atlanta.asset-hub.polkadot.rpc.deserve.network`      |
+| Gravelines, FR   | `wss://gravelines.asset-hub.polkadot.rpc.deserve.network`   |
+| İstanbul, TR     | `wss://istanbul.asset-hub.polkadot.rpc.deserve.network`     |
+| Johannesburg, ZA | `wss://johannesburg.asset-hub.polkadot.rpc.deserve.network` |
+| Limburg, DE      | `wss://limburg.asset-hub.polkadot.rpc.deserve.network`      |
+| London, UK       | `wss://london.asset-hub.polkadot.rpc.deserve.network`       |
+| Miami, FL, US    | `wss://miami.asset-hub.polkadot.rpc.deserve.network`        |
+| Montreal, CA     | `wss://montreal.asset-hub.polkadot.rpc.deserve.network`     |
+| Mumbai, IN       | `wss://mumbai.asset-hub.polkadot.rpc.deserve.network`       |
+| Seattle, WA, US  | `wss://seattle.asset-hub.polkadot.rpc.deserve.network`      |
+| São Paulo, BR    | `wss://sao-paulo.asset-hub.polkadot.rpc.deserve.network`    |
+| Singapore, SG    | `wss://singapore.asset-hub.polkadot.rpc.deserve.network`    |
+| Sydney, AU       | `wss://sydney.asset-hub.polkadot.rpc.deserve.network`       |
+| Warsaw, PL       | `wss://warsaw.asset-hub.polkadot.rpc.deserve.network`       |
