@@ -4,6 +4,11 @@
     gap: 0.35rem;
 }
 
+:global(td) .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .url {
     font-size: 0.85em;
 }
