@@ -25,5 +25,3 @@ DeServe currently operates across **14 locations** on **6 continents**, with a 1
 |  13 | Sydney, AU       | Oceania       | ✅ Live        |
 |  14 | Warsaw, PL       | Europe        | ✅ Live        |
 |  15 | Tokyo, JP        | Asia          | 🔄 In progress |
-
-Requests are automatically routed to the **nearest available node via geo-steered load balancing.** If a node becomes unreachable, it is removed from the pool within **15 seconds.**

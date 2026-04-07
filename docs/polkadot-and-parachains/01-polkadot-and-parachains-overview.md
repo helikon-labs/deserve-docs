@@ -18,7 +18,7 @@ DeServe provides archive RPC, and Ethereum-compatible RPC services where applies
 | Collectives |     🔜      |   🔜    | Planned     |
 | People      |     🔜      |   🔜    | Planned     |
 
-All deployments are across the full **14-location** network with geo-steered load balancing.
+All deployments are across the full **14-location** network with geo-steered load balancing, with a 15th location in Tokyo currently being deployed.
 
 ## Network details
 
