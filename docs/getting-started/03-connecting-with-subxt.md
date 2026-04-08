@@ -47,7 +47,7 @@ use subxt::{OnlineClient, PolkadotConfig};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    // Replace with your preferred regional endpoint
+    // replace with your preferred regional endpoint
     let api = OnlineClient::<PolkadotConfig>::from_url(
         "wss://london.asset-hub.polkadot.rpc.deserve.network"
     ).await?;

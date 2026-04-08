@@ -22,7 +22,7 @@ npx papi add polkadot_asset_hub -n polkadot_asset_hub
 
 ## Connecting to the geo-steered endpoint
 
-```typescript
+```javascript
 import { polkadot_asset_hub } from '@polkadot-api/descriptors';
 import { createClient } from 'polkadot-api';
 import { getWsProvider } from 'polkadot-api/ws-provider';
@@ -39,13 +39,14 @@ client.destroy();
 
 ## Connecting to a regional endpoint
 
-```typescript
+```javascript
 import { polkadot_asset_hub } from '@polkadot-api/descriptors';
 import { createClient } from 'polkadot-api';
 import { getWsProvider } from 'polkadot-api/ws-provider';
 import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
 
 const client = createClient(
+    // replace with your preferred regional endpoint
     withPolkadotSdkCompat(getWsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network')),
 );
 const api = client.getTypedApi(polkadot_asset_hub);

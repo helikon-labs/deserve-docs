@@ -16,7 +16,7 @@ npm install @polkadot/api
 
 ## Connecting to the geo-steered endpoint
 
-```typescript
+```javascript
 import { ApiPromise, WsProvider } from '@polkadot/api';
 
 const provider = new WsProvider('wss://asset-hub.polkadot.rpc.deserve.network');
@@ -27,10 +27,10 @@ console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
 
 ## Connecting to a regional endpoint
 
-```typescript
+```javascript
 import { ApiPromise, WsProvider } from '@polkadot/api';
 
-// Replace with your preferred regional endpoint
+// replace with your preferred regional endpoint
 const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
 const api = await ApiPromise.create({ provider });
 

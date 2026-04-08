@@ -14,4 +14,4 @@ Choose the library that fits your stack to access the DeServe endpoints:
 | [PAPI](/getting-started/connecting-with-papi)                  |  JS/TS   | Modern alternative to Polkadot.js with better type safety  |
 | [subxt](/getting-started/connecting-with-subxt)                |   Rust   | Native Rust client for Substrate-based chains              |
 | [ethers.js / viem](/getting-started/connecting-with-ethers-js) |  JS/TS   | Ethereum-compatible access via the Revive pallet           |
-| [Dedot](/getting-started/connecting-with-dedot)               |   JS/TS   | Next-generation Polkadot client with precise types        |
+| [Dedot](/getting-started/connecting-with-dedot)                |  JS/TS   | Next-generation Polkadot client with precise types         |

@@ -16,7 +16,7 @@ npm install ethers
 
 ## Connecting to the geo-steered endpoint
 
-```typescript
+```javascript
 import { ethers } from 'ethers';
 
 const provider = new ethers.JsonRpcProvider('https://asset-hub.polkadot.eth-rpc.deserve.network');
@@ -27,10 +27,10 @@ console.log(`Current block number: ${blockNumber}`);
 
 ## Connecting to a regional endpoint
 
-```typescript
+```javascript
 import { ethers } from 'ethers';
 
-// Replace with your preferred regional endpoint
+// replace with your preferred regional endpoint
 const provider = new ethers.JsonRpcProvider(
     'https://london.asset-hub.polkadot.eth-rpc.deserve.network',
 );
@@ -47,7 +47,7 @@ console.log(`Current block number: ${blockNumber}`);
 npm install viem
 ```
 
-```typescript
+```javascript
 import { createPublicClient, http } from 'viem';
 
 const client = createPublicClient({

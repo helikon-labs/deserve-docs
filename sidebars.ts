@@ -38,6 +38,10 @@ const sidebars: SidebarsConfig = {
             type: 'doc',
             id: 'getting-started/connecting-with-ethers-js',
         },
+        {
+            type: 'doc',
+            id: 'getting-started/connecting-with-dedot',
+        },
     ],
     polkadotSidebar: [
         {

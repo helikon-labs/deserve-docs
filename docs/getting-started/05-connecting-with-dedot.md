@@ -12,17 +12,15 @@ slug: /getting-started/connecting-with-dedot
 
 ```bash
 npm install dedot
-npm install -D @dedot/chaintypes
 ```
 
 ## Connecting to the geo-steered endpoint
 
-```typescript
+```javascript
 import { DedotClient, WsProvider } from 'dedot';
-import type { PolkadotAssetHubApi } from '@dedot/chaintypes';
 
 const provider = new WsProvider('wss://asset-hub.polkadot.rpc.deserve.network');
-const client = await DedotClient.new<PolkadotAssetHubApi>(provider);
+const client = await DedotClient.new(provider);
 
 const bestBlock = await client.block.best();
 console.log(`Connected. Best block: #${bestBlock.number}`);
@@ -32,13 +30,12 @@ await client.disconnect();
 
 ## Connecting to a regional endpoint
 
-```typescript
+```javascript
 import { DedotClient, WsProvider } from 'dedot';
-import type { PolkadotAssetHubApi } from '@dedot/chaintypes';
 
-// Replace with your preferred regional endpoint
+// replace with your preferred regional endpoint
 const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
-const client = await DedotClient.new<PolkadotAssetHubApi>(provider);
+const client = await DedotClient.new(provider);
 
 const bestBlock = await client.block.best();
 console.log(`Connected. Best block: #${bestBlock.number}`);
