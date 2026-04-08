@@ -520,6 +520,10 @@ a {
     transition: none;
 }
 
+.tabs__item {
+    border-radius: var(--ifm-global-radius) var(--ifm-global-radius) 0 0;
+}
+
 /*
 .api-method > .menu__link,
 .schema > .menu__link {

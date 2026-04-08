@@ -1,0 +1,99 @@
+---
+id: connecting-with-dedot
+sidebar_position: 5
+slug: /getting-started/connecting-with-dedot
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Connecting with Dedot
+
+[Dedot](https://dedot.dev) is a **next-generation** JavaScript/TypeScript client for Polkadot and Polkadot SDK-based blockchains. It is lightweight, tree-shakable, and provides precise types and API suggestions for each individual network via the [`@dedot/chaintypes`](https://github.com/dedotdev/chaintypes) package.
+
+## Installation
+
+<Tabs groupId="lang" defaultValue="js">
+    <TabItem value="js" label="JavaScript">
+        ```bash npm install dedot ```
+    </TabItem>
+    <TabItem value="ts" label="TypeScript">
+        ```bash npm install dedot @dedot/chaintypes ```
+    </TabItem>
+</Tabs>
+
+## Connecting to the geo-steered endpoint
+
+<Tabs groupId="lang" defaultValue="js">
+  <TabItem value="js" label="JavaScript">
+    ```javascript
+    import { DedotClient, WsProvider } from 'dedot';
+
+    const provider = new WsProvider('wss://asset-hub.polkadot.rpc.deserve.network');
+    const client = await DedotClient.new(provider);
+
+    const bestBlock = await client.block.best();
+    console.log(`Connected. Best block: #${bestBlock.number}`);
+
+    await client.disconnect();
+    ```
+
+  </TabItem>
+  <TabItem value="ts" label="TypeScript">
+    ```typescript
+    import { DedotClient, WsProvider } from 'dedot';
+    import type { PolkadotAssetHubApi } from '@dedot/chaintypes';
+
+    const provider = new WsProvider('wss://asset-hub.polkadot.rpc.deserve.network');
+    const client = await DedotClient.new<PolkadotAssetHubApi>(provider);
+
+    const bestBlock = await client.block.best();
+    console.log(`Connected. Best block: #${bestBlock.number}`);
+
+    await client.disconnect();
+    ```
+
+  </TabItem>
+</Tabs>
+
+## Connecting to a regional endpoint
+
+<Tabs groupId="lang" defaultValue="js">
+  <TabItem value="js" label="JavaScript">
+    ```javascript
+    import { DedotClient, WsProvider } from 'dedot';
+
+    // replace with your preferred regional endpoint
+    const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
+    const client = await DedotClient.new(provider);
+
+    const bestBlock = await client.block.best();
+    console.log(`Connected. Best block: #${bestBlock.number}`);
+
+    await client.disconnect();
+    ```
+
+  </TabItem>
+  <TabItem value="ts" label="TypeScript">
+    ```typescript
+    import { DedotClient, WsProvider } from 'dedot';
+    import type { PolkadotAssetHubApi } from '@dedot/chaintypes';
+
+    // replace with your preferred regional endpoint
+    const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
+    const client = await DedotClient.new<PolkadotAssetHubApi>(provider);
+
+    const bestBlock = await client.block.best();
+    console.log(`Connected. Best block: #${bestBlock.number}`);
+
+    await client.disconnect();
+    ```
+
+  </TabItem>
+</Tabs>
+
+## Available endpoints
+
+| Network            |                                 Endpoints                                 |
+| :----------------- | :-----------------------------------------------------------------------: |
+| Polkadot Asset Hub | [Link](/polkadot-and-parachains/polkadot-asset-hub#archive-rpc-endpoints) |

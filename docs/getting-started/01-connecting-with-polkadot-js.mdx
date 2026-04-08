@@ -1,0 +1,80 @@
+---
+id: connecting-with-polkadot-js
+sidebar_position: 1
+slug: /getting-started/connecting-with-polkadot-js
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Connecting with Polkadot.js
+
+[Polkadot.js](https://polkadot.js.org/) is the **most widely used** JS/TS library for interacting with Polkadot and Substrate-based chains.
+
+## Installation
+
+```bash
+npm install @polkadot/api
+```
+
+## Connecting to the geo-steered endpoint
+
+<Tabs groupId="lang" defaultValue="js">
+  <TabItem value="js" label="JavaScript">
+    ```javascript
+    import { ApiPromise, WsProvider } from '@polkadot/api';
+
+    const provider = new WsProvider('wss://asset-hub.polkadot.rpc.deserve.network');
+    const api = await ApiPromise.create({ provider });
+
+    console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
+    ```
+
+  </TabItem>
+  <TabItem value="ts" label="TypeScript">
+    ```typescript
+    import { ApiPromise, WsProvider } from '@polkadot/api';
+
+    const provider = new WsProvider('wss://asset-hub.polkadot.rpc.deserve.network');
+    const api = await ApiPromise.create({ provider });
+
+    console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
+    ```
+
+  </TabItem>
+</Tabs>
+
+## Connecting to a regional endpoint
+
+<Tabs groupId="lang" defaultValue="js">
+  <TabItem value="js" label="JavaScript">
+    ```javascript
+    import { ApiPromise, WsProvider } from '@polkadot/api';
+
+    // replace with your preferred regional endpoint
+    const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
+    const api = await ApiPromise.create({ provider });
+
+    console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
+    ```
+
+  </TabItem>
+  <TabItem value="ts" label="TypeScript">
+    ```typescript
+    import { ApiPromise, WsProvider } from '@polkadot/api';
+
+    // replace with your preferred regional endpoint
+    const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
+    const api = await ApiPromise.create({ provider });
+
+    console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
+    ```
+
+  </TabItem>
+</Tabs>
+
+## Available endpoints
+
+| Network            |                                 Endpoints                                 |
+| :----------------- | :-----------------------------------------------------------------------: |
+| Polkadot Asset Hub | [Link](/polkadot-and-parachains/polkadot-asset-hub#archive-rpc-endpoints) |
