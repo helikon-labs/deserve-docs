@@ -21,26 +21,24 @@ npm install @polkadot/api
 
 <Tabs groupId="lang" defaultValue="js">
   <TabItem value="js" label="JavaScript">
-    ```javascript
-    import { ApiPromise, WsProvider } from '@polkadot/api';
+  ```javascript
+  import { ApiPromise, WsProvider } from '@polkadot/api';
 
-    const provider = new WsProvider('wss://asset-hub.polkadot.rpc.deserve.network');
-    const api = await ApiPromise.create({ provider });
+  const provider = new WsProvider('wss://asset-hub.polkadot.rpc.deserve.network');
+  const api = await ApiPromise.create({ provider });
 
-    console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
-    ```
-
+  console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
+  ```
   </TabItem>
-  <TabItem value="ts" label="TypeScript">
-    ```typescript
-    import { ApiPromise, WsProvider } from '@polkadot/api';
+<TabItem value="ts" label="TypeScript">
+  ```typescript
+  import { ApiPromise, WsProvider } from '@polkadot/api';
 
-    const provider = new WsProvider('wss://asset-hub.polkadot.rpc.deserve.network');
-    const api = await ApiPromise.create({ provider });
+  const provider = new WsProvider('wss://asset-hub.polkadot.rpc.deserve.network');
+  const api = await ApiPromise.create({ provider });
 
-    console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
-    ```
-
+  console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
+  ```
   </TabItem>
 </Tabs>
 
@@ -48,28 +46,26 @@ npm install @polkadot/api
 
 <Tabs groupId="lang" defaultValue="js">
   <TabItem value="js" label="JavaScript">
-    ```javascript
-    import { ApiPromise, WsProvider } from '@polkadot/api';
+  ```javascript
+  import { ApiPromise, WsProvider } from '@polkadot/api';
 
-    // replace with your preferred regional endpoint
-    const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
-    const api = await ApiPromise.create({ provider });
+  // replace with your preferred regional endpoint
+  const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
+  const api = await ApiPromise.create({ provider });
 
-    console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
-    ```
-
+  console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
+  ```
   </TabItem>
   <TabItem value="ts" label="TypeScript">
-    ```typescript
-    import { ApiPromise, WsProvider } from '@polkadot/api';
+  ```typescript
+  import { ApiPromise, WsProvider } from '@polkadot/api';
 
-    // replace with your preferred regional endpoint
-    const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
-    const api = await ApiPromise.create({ provider });
+  // replace with your preferred regional endpoint
+  const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
+  const api = await ApiPromise.create({ provider });
 
-    console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
-    ```
-
+  console.log(`Connected to chain: ${await api.rpc.system.chain()}`);
+  ```
   </TabItem>
 </Tabs>
 

@@ -27,38 +27,36 @@ npx papi add polkadot_asset_hub -n polkadot_asset_hub
 
 <Tabs groupId="lang" defaultValue="js">
   <TabItem value="js" label="JavaScript">
-    ```javascript
-    import { polkadot_asset_hub } from '@polkadot-api/descriptors';
-    import { createClient } from 'polkadot-api';
-    import { getWsProvider } from 'polkadot-api/ws-provider';
-    import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
+  ```javascript
+  import { polkadot_asset_hub } from '@polkadot-api/descriptors';
+  import { createClient } from 'polkadot-api';
+  import { getWsProvider } from 'polkadot-api/ws-provider';
+  import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
 
-    const client = createClient(
-        withPolkadotSdkCompat(getWsProvider('wss://asset-hub.polkadot.rpc.deserve.network')),
-    );
-    const api = client.getTypedApi(polkadot_asset_hub);
-    const blockNumber = await api.query.System.Number.getValue();
-    console.log(`Current block number is ${blockNumber}.`);
-    client.destroy();
-    ```
-
+  const client = createClient(
+      withPolkadotSdkCompat(getWsProvider('wss://asset-hub.polkadot.rpc.deserve.network')),
+  );
+  const api = client.getTypedApi(polkadot_asset_hub);
+  const blockNumber = await api.query.System.Number.getValue();
+  console.log(`Current block number is ${blockNumber}.`);
+  client.destroy();
+  ```
   </TabItem>
   <TabItem value="ts" label="TypeScript">
-    ```typescript
-    import { polkadot_asset_hub } from '@polkadot-api/descriptors';
-    import { createClient } from 'polkadot-api';
-    import { getWsProvider } from 'polkadot-api/ws-provider';
-    import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
+  ```typescript
+  import { polkadot_asset_hub } from '@polkadot-api/descriptors';
+  import { createClient } from 'polkadot-api';
+  import { getWsProvider } from 'polkadot-api/ws-provider';
+  import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
 
-    const client = createClient(
-        withPolkadotSdkCompat(getWsProvider('wss://asset-hub.polkadot.rpc.deserve.network')),
-    );
-    const api = client.getTypedApi(polkadot_asset_hub);
-    const blockNumber = await api.query.System.Number.getValue();
-    console.log(`Current block number is ${blockNumber}.`);
-    client.destroy();
-    ```
-
+  const client = createClient(
+      withPolkadotSdkCompat(getWsProvider('wss://asset-hub.polkadot.rpc.deserve.network')),
+  );
+  const api = client.getTypedApi(polkadot_asset_hub);
+  const blockNumber = await api.query.System.Number.getValue();
+  console.log(`Current block number is ${blockNumber}.`);
+  client.destroy();
+  ```
   </TabItem>
 </Tabs>
 
@@ -66,40 +64,38 @@ npx papi add polkadot_asset_hub -n polkadot_asset_hub
 
 <Tabs groupId="lang" defaultValue="js">
   <TabItem value="js" label="JavaScript">
-    ```javascript
-    import { polkadot_asset_hub } from '@polkadot-api/descriptors';
-    import { createClient } from 'polkadot-api';
-    import { getWsProvider } from 'polkadot-api/ws-provider';
-    import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
+  ```javascript
+  import { polkadot_asset_hub } from '@polkadot-api/descriptors';
+  import { createClient } from 'polkadot-api';
+  import { getWsProvider } from 'polkadot-api/ws-provider';
+  import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
 
-    const client = createClient(
-        // replace with your preferred regional endpoint
-        withPolkadotSdkCompat(getWsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network')),
-    );
-    const api = client.getTypedApi(polkadot_asset_hub);
-    const blockNumber = await api.query.System.Number.getValue();
-    console.log(`Current block number is ${blockNumber}.`);
-    client.destroy();
-    ```
-
+  const client = createClient(
+      // replace with your preferred regional endpoint
+      withPolkadotSdkCompat(getWsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network')),
+  );
+  const api = client.getTypedApi(polkadot_asset_hub);
+  const blockNumber = await api.query.System.Number.getValue();
+  console.log(`Current block number is ${blockNumber}.`);
+  client.destroy();
+  ```
   </TabItem>
   <TabItem value="ts" label="TypeScript">
-    ```typescript
-    import { polkadot_asset_hub } from '@polkadot-api/descriptors';
-    import { createClient } from 'polkadot-api';
-    import { getWsProvider } from 'polkadot-api/ws-provider';
-    import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
+  ```typescript
+  import { polkadot_asset_hub } from '@polkadot-api/descriptors';
+  import { createClient } from 'polkadot-api';
+  import { getWsProvider } from 'polkadot-api/ws-provider';
+  import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
 
-    const client = createClient(
-        // replace with your preferred regional endpoint
-        withPolkadotSdkCompat(getWsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network')),
-    );
-    const api = client.getTypedApi(polkadot_asset_hub);
-    const blockNumber = await api.query.System.Number.getValue();
-    console.log(`Current block number is ${blockNumber}.`);
-    client.destroy();
-    ```
-
+  const client = createClient(
+      // replace with your preferred regional endpoint
+      withPolkadotSdkCompat(getWsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network')),
+  );
+  const api = client.getTypedApi(polkadot_asset_hub);
+  const blockNumber = await api.query.System.Number.getValue();
+  console.log(`Current block number is ${blockNumber}.`);
+  client.destroy();
+  ```
   </TabItem>
 </Tabs>
 
