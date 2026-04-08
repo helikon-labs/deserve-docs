@@ -81,7 +81,7 @@ const config: Config = {
     ],
 
     themeConfig: {
-        image: 'img/social-card.jpg',
+        image: 'img/deserve-social-card.jpg',
         colorMode: {
             defaultMode: 'light',
             disableSwitch: false,
