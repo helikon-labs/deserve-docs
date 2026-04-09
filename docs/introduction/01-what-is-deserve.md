@@ -34,7 +34,7 @@ DeServe is also approximately **80% cheaper than IBP** across comparable infrast
 
 ## Decentralization roadmap
 
-DeServe is founded and launched by Helikon, an İstanbul-based Polkadot-native infrastructure and software development team, with infrastructure provided by 7 operators, including Helikon itself.
+DeServe is founded and launched by Helikon, an İstanbul-based Polkadot-native infrastructure and software development team. Its initial deployment spans **14 locations** across **7 providers**, with cloud infrastructure progressively being replaced by native Polkadot operators.
 
 The network decentralizes progressively through defined phases:
 
