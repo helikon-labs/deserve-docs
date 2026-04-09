@@ -1,6 +1,6 @@
 ---
 id: connecting-with-subxt
-sidebar_position: 3
+sidebar_position: 4
 slug: /getting-started/connecting-with-subxt
 ---
 
