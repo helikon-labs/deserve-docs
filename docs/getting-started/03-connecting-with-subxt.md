@@ -62,3 +62,4 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 | Network            |                                 Endpoints                                 |
 | :----------------- | :-----------------------------------------------------------------------: |
 | Polkadot Asset Hub | [Link](/polkadot-and-parachains/polkadot-asset-hub#archive-rpc-endpoints) |
+| Polkadot Coretime  | [Link](/polkadot-and-parachains/polkadot-coretime#archive-rpc-endpoints)  |
