@@ -6,7 +6,7 @@ slug: /
 
 # What is DeServe
 
-DeServe is a **progressively decentralized** infrastructure services network, [launched](https://forum.polkadot.network/t/launched-a-global-rpc-network-starting-with-polkadot-asset-hub-first-step-of-a-depin-14-locations-lowest-latency-cost-benchmarks-free-endpoints/17422) on Polkadot March 31, 2026. Its initial deployment provides a **global archive RPC network for Polkadot Asset Hub** with **Ethereum-compatible RPC support**, and **Polkadot Coretime,** across **14 locations and 6 continents**, with a 15th location in Tokyo currently being deployed. Coverage is expanding to additional Polkadot system parachains, with Coretime currently rolling out.
+DeServe is a **progressively decentralized** infrastructure services network, [launched](https://forum.polkadot.network/t/launched-a-global-rpc-network-starting-with-polkadot-asset-hub-first-step-of-a-depin-14-locations-lowest-latency-cost-benchmarks-free-endpoints/17422) on Polkadot March 31, 2026. Its initial deployment provides a **global archive RPC network for Polkadot Asset Hub** with **Ethereum-compatible RPC support**, and **Polkadot Coretime,** across **15 locations and 6 continents.** Coverage is expanding to additional Polkadot system parachains, with Coretime currently rolling out.
 
 The launch of DeServe is motivated by three major factors:
 
@@ -34,7 +34,7 @@ DeServe is also approximately **80% cheaper than IBP** across comparable infrast
 
 ## Decentralization roadmap
 
-DeServe is founded and launched by Helikon, an İstanbul-based Polkadot-native infrastructure and software development team. Its initial deployment spans **14 locations** across **7 providers**, with cloud infrastructure progressively being replaced by native Polkadot operators.
+DeServe is founded and launched by Helikon, an İstanbul-based Polkadot-native infrastructure and software development team. Its initial deployment spans **15 locations** across **7 providers**, with cloud infrastructure progressively being replaced by native Polkadot operators.
 
 The network decentralizes progressively through defined phases:
 
