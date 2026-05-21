@@ -6,7 +6,7 @@ slug: /introduction/locations
 
 # Locations
 
-DeServe currently operates across **15 locations** on **6 continents.**
+DeServe currently operates across **13 locations** on **6 continents.**
 
 |   # | Location         | Continent     | Status  |
 | --: | ---------------- | ------------- | ------- |
@@ -20,8 +20,6 @@ DeServe currently operates across **15 locations** on **6 continents.**
 |   8 | Montreal, CA     | North America | ✅ Live |
 |   9 | Mumbai, IN       | Asia          | ✅ Live |
 |  10 | Seattle, WA, US  | North America | ✅ Live |
-|  11 | São Paulo, BR    | South America | ✅ Live |
-|  12 | Singapore, SG    | Asia          | ✅ Live |
-|  13 | Sydney, AU       | Oceania       | ✅ Live |
-|  14 | Warsaw, PL       | Europe        | ✅ Live |
-|  15 | Tokyo, JP        | Asia          | ✅ Live |
+|  11 | Singapore, SG    | Asia          | ✅ Live |
+|  12 | Sydney, AU       | Oceania       | ✅ Live |
+|  13 | Warsaw, PL       | Europe        | ✅ Live |
