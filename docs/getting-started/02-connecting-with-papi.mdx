@@ -50,7 +50,7 @@ import { withPolkadotSdkCompat } from 'polkadot-api/polkadot-sdk-compat';
 
 const client = createClient(
     // replace with your preferred regional endpoint
-    withPolkadotSdkCompat(getWsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network')),
+    withPolkadotSdkCompat(getWsProvider('wss://warsaw.asset-hub.polkadot.rpc.deserve.network')),
 );
 const api = client.getTypedApi(polkadot_asset_hub);
 const blockNumber = await api.query.System.Number.getValue();

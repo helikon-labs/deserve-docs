@@ -66,7 +66,7 @@ import TabItem from '@theme/TabItem';
   import { DedotClient, WsProvider } from 'dedot';
 
   // replace with your preferred regional endpoint
-  const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
+  const provider = new WsProvider('wss://warsaw.asset-hub.polkadot.rpc.deserve.network');
   const client = await DedotClient.new(provider);
 
   const bestBlock = await client.block.best();
@@ -81,7 +81,7 @@ import TabItem from '@theme/TabItem';
   import type { PolkadotAssetHubApi } from '@dedot/chaintypes';
 
   // replace with your preferred regional endpoint
-  const provider = new WsProvider('wss://london.asset-hub.polkadot.rpc.deserve.network');
+  const provider = new WsProvider('wss://warsaw.asset-hub.polkadot.rpc.deserve.network');
   const client = await DedotClient.new<PolkadotAssetHubApi>(provider);
 
   const bestBlock = await client.block.best();

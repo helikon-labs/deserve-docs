@@ -6,7 +6,9 @@ slug: /
 
 # What is DeServe
 
-DeServe is a **progressively decentralized** infrastructure services network, [launched](https://forum.polkadot.network/t/launched-a-global-rpc-network-starting-with-polkadot-asset-hub-first-step-of-a-depin-14-locations-lowest-latency-cost-benchmarks-free-endpoints/17422) on Polkadot March 31, 2026. Its initial deployment provides a **global archive RPC network for Polkadot Asset Hub** with **Ethereum-compatible RPC support**, and **Polkadot Coretime,** across **13 locations and 6 continents.** Coverage is expanding to additional Polkadot system parachains, with Coretime currently rolling out.
+ℹ️ DeServe currently operates from its Warsaw location only, with a roadmap to expand its points of presence across the globe.
+
+DeServe is a **progressively decentralized** infrastructure services network, [launched](https://forum.polkadot.network/t/launched-a-global-rpc-network-starting-with-polkadot-asset-hub-first-step-of-a-depin-14-locations-lowest-latency-cost-benchmarks-free-endpoints/17422) on Polkadot March 31, 2026. Its initial deployment provides a **global archive RPC network for Polkadot Asset Hub** with **Ethereum-compatible RPC support**, and **Polkadot Coretime,** across **13 locations and 6 continents.**
 
 The launch of DeServe is motivated by three major factors:
 
@@ -41,5 +43,3 @@ The network decentralizes progressively through defined phases:
 - **Alpha:** Helikon operates as the initial operator, managing the network and coordinating providers.
 - **Beta:** A network committee of 3 Polkadot-native infrastructure operators takes over coordination.
 - **On-chain:** Governance, provider coordination, and pay-as-you-go payments with on-chain provision and consumption proofs move fully on-chain.
-
-A testnet is already deployed on Paseo ([para ID 5150](https://telemetry.polkadot.io/#list/0x1260a2a27387e782a0f11f9fb4e42eb80d7ccff994a30ff8fb2c409315f38f49)). Planned milestones include a transition to open-source DNS (replacing Cloudflare for geo-steered load balancing) and progressive replacement of cloud providers with native Polkadot infrastructure providers.

@@ -14,7 +14,7 @@ DeServe provides **archive RPC** and **Ethereum-compatible RPC** services where 
 | -------------------------------------------------------- | :---------: | :-----: | ------- |
 | Relay Chain                                              |     🔜      |   n/a   | Planned |
 | [Asset Hub](/polkadot-and-parachains/polkadot-asset-hub) |     ✅      |   ✅    | Live    |
-| [Coretime](/polkadot-and-parachains/polkadot-coretime)   |     ✅      |   n/a   | Live    |
+| Coretime                                                 |     🔜      |   n/a   | Planned |
 | Bridge Hub                                               |     🔜      |   n/a   | Planned |
 | Collectives                                              |     🔜      |   n/a   | Planned |
 | People                                                   |     🔜      |   n/a   | Planned |

@@ -52,10 +52,10 @@ const sidebars: SidebarsConfig = {
             type: 'doc',
             id: 'polkadot-and-parachains/polkadot-asset-hub',
         },
-        {
-            type: 'doc',
-            id: 'polkadot-and-parachains/polkadot-coretime',
-        },
+        //{
+        //    type: 'doc',
+        //    id: 'polkadot-and-parachains/polkadot-coretime',
+        //},
     ],
     // crystalAPISidebar,
 };
